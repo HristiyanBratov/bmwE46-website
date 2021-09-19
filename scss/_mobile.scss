@@ -1,0 +1,87 @@
+@include media-md {
+    .header {
+        visibility: hidden;
+    }
+
+    header {
+        height: 70px;
+    }
+
+   section {
+       background: url(/dist/img/h.jpg);
+       background-size: cover;
+       background-position: center;
+   }
+
+   .icon {
+       left: 10em;
+       top: 0.6em;
+   }
+
+   nav {
+       visibility: hidden;
+   }
+
+   .nav__img {
+       visibility: hidden;
+   }
+
+   .heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5em;
+
+    h2 {
+        font-size: 35px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    h3 {
+        font-size: 32px;
+        margin-top: 0.5em;
+        letter-spacing: 2px;
+
+        span {
+            color: #c23838;
+        }
+    }
+
+    h4 {
+        font-size: 28px;
+        margin-top: 0.5em;
+    }
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+
+    &__one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #222627;
+        background: #222627;
+        color: #fff;
+        padding: 3px;
+        width: 160px;
+        height: 50px;
+    }
+
+    &__two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #4a70ff;
+        background-color: #4a70ff;
+        color: #fff;
+        padding: 3px;
+        width: 160px;
+        height: 50px;
+    }
+}
+}
+

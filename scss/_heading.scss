@@ -1,0 +1,31 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $secondary-color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 11em;
+    z-index: 20;
+
+    h2 {
+        font-size: 60px;
+        letter-spacing: 8px;
+    }
+
+    h3 {
+        font-size: 48px;
+        letter-spacing: 6px;
+        margin-top: 0.5em;
+
+        span {
+            color: #c23838;
+            letter-spacing: 2px;
+        }
+    }
+
+    h4 {
+        font-size: 45px;
+        margin-top: 0.5em;
+        letter-spacing: 2px;
+    }
+}

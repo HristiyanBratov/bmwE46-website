@@ -1,0 +1,50 @@
+%btn {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    margin: 2em 1.5em;
+    transition: 1s ease-in-out;
+}
+
+%btn__mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 3px;
+    width: 160px;
+    height: 50px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+
+    &__one {
+        @extend %btn;
+        border: 1px solid #222627;
+        background: #222627;
+        color: $secondary-color;
+        width: 145px;
+        text-align: center;
+
+        &:hover {
+            color: #c23838;
+        }
+    }
+
+    &__two {
+        @extend %btn;
+        border: 1px solid #4a70ff;
+        background-color: #4a70ff;
+        color: #fff;
+        width: 145px;
+        text-align: center;
+
+        &:hover {
+            color: #000;
+        }
+    }
+}
